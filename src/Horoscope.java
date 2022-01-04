@@ -4,13 +4,13 @@ public class Horoscope {
     public static void main(String[] args) {
         int month, day;
 
-        Scanner scan = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         System.out.print("Doğduğunuz Gün - Sayı Olarak: ");
-        day = scan.nextInt();
+        day = input.nextInt();
 
         System.out.print("Doğduğunuz Ay - Sayı Olarak: ");
-        month = scan.nextInt();
+        month = input.nextInt();
 
         if (month == 1) {
             if (day < 21) {
@@ -88,5 +88,6 @@ public class Horoscope {
             System.out.print("Yanlış formatta giriş yaptınız");
             System.exit( 1 );
         }
+
     }
 }
