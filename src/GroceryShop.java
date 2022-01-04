@@ -29,5 +29,6 @@ public class GroceryShop {
         double totalSum = pearPrice + applePrice + tomatoPrice + bananaPrice + eggplantPrice;
         System.out.println("Toplam Tutar: " + totalSum);
 
+
     }
 }
