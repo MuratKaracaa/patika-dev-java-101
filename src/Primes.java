@@ -23,7 +23,7 @@ public class Primes {
                 list.add( i );
             }
         }
-
         System.out.println(list);
+
     }
 }
